@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5),#00000080);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+     align-items: center; 
+     text-align: center;
+    flex-direction: column;
+    /* margin: 20vh auto 0 auto; */
+    background-image: url(./celebration.jpg);
+    color:white;
+    font-family:sans-serif,Poppins;
+  
+}
+p{
+    font-size: 20px;
+
+}
+h2{
+    font-size: 25px;
+}
+.counter{
+    display: flex;
+    justify-content: center; 
+   text-align: center;
+ 
+    
+}
+.box{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+@media screen  and (min-width:576px){
+
+    
+p{
+    font-size: 20px;
+
+}
+h2{
+    font-size: 25px;
+}
+.counter{
+    display: flex;
+    justify-content: center; 
+   text-align: center;
+ 
+    
+}
+.box{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+}
+
+
+
+@media screen  and (min-width:768px){
+
+    
+    p{
+        font-size: 30px;
+    
+    }
+    h2{
+        font-size: 35px;
+    }
+    .counter{
+        display: flex;
+        justify-content: center; 
+       text-align: center;
+     
+        
+    }
+    .box{
+        width: 100px;
+        height: 150px;
+        font-size: 30px;
+        font-weight: 800;
+    
+    }
+    }
+    
+@media screen  and (min-width:992px){
+
+    
+    p{
+        font-size: 50px;
+    
+    }
+    h2{
+        font-size: 55px;
+    }
+    .counter{
+        display: flex;
+        justify-content: center; 
+       text-align: center;
+     
+        
+    }
+    .box{
+        width: 200px;
+        height: 150px;
+        font-size: 45px;
+        font-weight: 800;
+    
+    }
+    }
